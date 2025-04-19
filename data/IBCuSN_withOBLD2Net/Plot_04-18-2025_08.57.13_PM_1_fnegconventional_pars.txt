@@ -1,0 +1,7 @@
+#F1D: fnegconventional, nsamples: 250
+FUNCTION (fnegconventional) RANGE    0.0000  192.5000 (exp:[p0]+[p1]*x)
+-----
+PARAMETER SET N PARAMS = 2
+**
+                p0 :       9.645183e-01       4.747151e-02      -1.000000e+10       1.000000e+10
+                p1 :      -1.261957e-03       3.642256e-04      -1.000000e+10       1.000000e+10

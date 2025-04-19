@@ -166,6 +166,7 @@ def plot_comparison(
     kinds: Tuple[str, str] = ("pos", "neg"),
     x_limits: Tuple[float, float] = (-5, 140),
     y_limits: Tuple[float, float] = (0.5, 1.5),
+    annot_xpos: Tuple[float, float] = (0, 80),
 ) -> None:
     """
     Generate side by side efficiency comparisons for 'pos' and 'neg' slices from two directories, and save as PNG + PDF.
@@ -189,7 +190,7 @@ def plot_comparison(
         label1: dict(marker="o", fillstyle="full", linestyle="-"),
         label2: dict(marker="s", fillstyle="none", linestyle="--"),
     }
-    annot_x = {label1: 0, label2: 80}
+    annot_x = {label1: annot_xpos[0], label2: annot_xpos[1]}
     label_y = 0.4
     annot_y = {"conventional": 0.30, "ai": 0.35}
 
