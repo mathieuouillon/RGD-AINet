@@ -1,0 +1,7 @@
+#F1D: fnegai, nsamples: 250
+FUNCTION (fnegai) RANGE    0.0000  110.0000 (exp:[p0]+[p1]*x)
+-----
+PARAMETER SET N PARAMS = 2
+**
+                p0 :       1.000000e+00       2.824464e-02      -1.000000e+10       1.000000e+10
+                p1 :      -1.776053e-03       4.826380e-04      -1.000000e+10       1.000000e+10

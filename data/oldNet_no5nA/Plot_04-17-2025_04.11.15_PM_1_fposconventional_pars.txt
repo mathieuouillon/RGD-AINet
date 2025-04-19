@@ -1,0 +1,7 @@
+#F1D: fposconventional, nsamples: 250
+FUNCTION (fposconventional) RANGE    0.0000  110.0000 (exp:[p0]+[p1]*x)
+-----
+PARAMETER SET N PARAMS = 2
+**
+                p0 :       9.520148e-01       8.818923e-03      -1.000000e+10       1.000000e+10
+                p1 :      -3.117875e-03       1.611324e-04      -1.000000e+10       1.000000e+10

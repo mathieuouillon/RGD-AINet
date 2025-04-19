@@ -1,0 +1,7 @@
+#F1D: fposai, nsamples: 250
+FUNCTION (fposai) RANGE    0.0000  110.0000 (exp:[p0]+[p1]*x)
+-----
+PARAMETER SET N PARAMS = 2
+**
+                p0 :       1.000000e+00       3.909202e-03      -1.000000e+10       1.000000e+10
+                p1 :      -1.854949e-03       7.746750e-05      -1.000000e+10       1.000000e+10
